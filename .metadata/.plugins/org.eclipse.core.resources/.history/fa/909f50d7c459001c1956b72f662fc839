@@ -1,0 +1,10 @@
+package br.com.generation.exercicios3;
+
+public class Psicologico {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

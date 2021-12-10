@@ -1,0 +1,24 @@
+package br.com.generation.exercicios3;
+
+import java.util.Scanner;
+
+public class Psicologico {
+
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int idade, sexo, opcoes, cont=0;
+		
+		while(cont!=150) {
+			System.out.println("escreva sua idade: ");
+			idade=entrada.nextInt();
+			System.out.println("escolha para seu sexo: \n 1:feminino \n 2:masculino \n 3:outros ");
+			System.out.println("");
+			sexo=entrada.nextInt();
+			
+			
+			cont++;
+		}
+
+	}
+
+}
