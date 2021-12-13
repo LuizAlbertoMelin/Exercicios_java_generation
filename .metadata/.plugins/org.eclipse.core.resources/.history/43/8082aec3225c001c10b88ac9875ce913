@@ -1,0 +1,10 @@
+package br.com.generation.exercicios4;
+
+public class Matriz_soma_diagonal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

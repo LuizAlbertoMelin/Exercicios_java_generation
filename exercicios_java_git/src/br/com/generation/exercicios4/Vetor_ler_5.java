@@ -1,0 +1,24 @@
+package br.com.generation.exercicios4;
+
+import java.util.Scanner;
+
+public class Vetor_ler_5 {
+
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		int vetor[] = new int [5], maior=0;
+		System.out.println("escreva as pontuações: ");
+		for(int i=0; i<vetor.length;i++) {
+			vetor[i]=entrada.nextInt();
+			if(vetor[i]>maior) {
+				maior=vetor[i];
+			}
+		}
+			for(int i=0; i<vetor.length;i++) {
+				System.out.println("essa é a pontuação: "+vetor[i]);
+			}
+			System.out.println("\nEssa é a maior nota: "+maior);
+		entrada.close();
+	}
+
+}
