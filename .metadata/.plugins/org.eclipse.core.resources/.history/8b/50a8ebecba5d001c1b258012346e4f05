@@ -1,0 +1,30 @@
+package br.com.generation.herança;
+
+public class Testando_Tudo {
+
+	public static void main(String[] args) {
+		Cachorro c1 = new Cachorro();
+		Cavalo c2 = new Cavalo();
+		Preguica p1 = new Preguica();
+		
+		c1.setIdade(5);
+		c1.setNome("Jeff");
+		c2.setIdade(12);
+		c2.setNome("Vagner");
+		p1.setIdade(55);
+		p1.setNome("flash");
+		
+		System.out.println("a idade do cahorro é: "+c1.getIdade()+" e seu nome: "+c1.getNome());
+		c1.correr();
+		c1.emitir();
+
+		System.out.println("a idade do cavalo é: "+c2.getIdade()+" e seu nome: "+c2.getNome());
+		c2.correr();
+		c2.emitir();
+		
+		System.out.println("a idade do cavalo é: "+p1.getIdade()+" e seu nome: "+p1.getNome());
+		p1.subir();
+		p1.emitir();
+	}
+
+}

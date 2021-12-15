@@ -1,0 +1,8 @@
+package br.com.generation.herança;
+
+public class animal {
+private String nome;
+private int idade;
+
+
+}
