@@ -1,0 +1,6 @@
+package br.com.generation.polimorfismo;
+
+public class Cavalo extends Animal implements Acoes{
+	
+	
+}

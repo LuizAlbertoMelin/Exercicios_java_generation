@@ -1,0 +1,10 @@
+package br.com.generation.polimorfismo;
+
+public interface Acoes {
+	 static void acao(){
+		
+	}
+	 static void som() {
+		 
+	 }
+}
